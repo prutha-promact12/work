@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="row" style="margin:0;">
+        <div class="col-md-2">
+            <div class="side-nav">
+                <div class="logo">
+                    <h3> USERS </h3>
+                </div>
+
+                <ul class="nav-link" *ngFor='let user of users'>                   
+                    <li><a (click)="loadmsg(user.id,user.name)" class="btn" role="button">{{user.name}}</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-10 ">
+            <div class="content-side">
+                <div class="header">
+                    <h1>{{chatusername}}</h1>
+                </div>
+                <div class="main-content">
+                    <div class="layout-msg" *ngFor='let msg of msgs' >
+                        <div class="msg-block" >
+                            <h5>{{getname(msg.fromUserId)}}</h5>
+                            <p>{{msg.message}}</p>
+                            <p id="time1" >{{msg.createdDateTime}}</p>
+                        </div>                        
+                    </div>
+                                        
+                    <div>
+                        <div class="send-msg-block">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Message here... " [(ngModel)]="usermsg">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button" (click)="sendmsg()"  >Send</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

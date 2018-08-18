@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding:0;
+  
+  }
+
+#time1{
+  word-spacing: 10px;
+  text-transform: lowercase;
+  text-align: right;
+}
+
+
+
+  .logo {
+    min-height: 70px;
+    position: relative;
+    display:block;
+    border-bottom: 1px solid #9d9d9d}
+  
+  .logo h3{margin:0;color:#fff;padding:20px 15px;}
+  
+  .side-nav {
+    background-color: #272634;
+    width: 16%;
+    z-index: 120;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow: scroll;
+  }
+
+  .content-side {
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: scroll;
+  }
+
+
+  ul{
+    margin: 0;
+    padding: 5px 20px;
+    list-style: none;
+  }
+  
+  ul li a {
+    color: #9d9d9d;
+    font-size: 14px;
+    padding: 12px 5px 12px 15px;
+    display: block;
+  }
+  
+  
+  .header h1{
+    padding:15px;
+    margin:0 -15px;
+    border-bottom: 1px solid #eee;background-color:#f5f5f5
+  }
+  
+  
+  .layout-msg{
+    padding:15px;  
+  }
+  .layout-msg h5{
+    font-weight:bold;
+  
+  }
+  .send-msg-block{
+    padding:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    right:0;
+    left:0;
+  
+  }
+
+  .msg-block{
+    border-bottom:1px solid #ddd;
+  }
+  

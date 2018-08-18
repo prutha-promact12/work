@@ -1,0 +1,14 @@
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\bin\Debug\netcoreapp2.1\ChatApplication.deps.json
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\bin\Debug\netcoreapp2.1\ChatApplication.runtimeconfig.json
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\bin\Debug\netcoreapp2.1\ChatApplication.runtimeconfig.dev.json
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\bin\Debug\netcoreapp2.1\ChatApplication.dll
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\bin\Debug\netcoreapp2.1\ChatApplication.pdb
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\obj\Debug\netcoreapp2.1\ChatApplication.csprojAssemblyReference.cache
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\obj\Debug\netcoreapp2.1\ChatApplication.csproj.CoreCompileInputs.cache
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\obj\Debug\netcoreapp2.1\ChatApplication.RazorAssemblyInfo.cache
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\obj\Debug\netcoreapp2.1\ChatApplication.RazorAssemblyInfo.cs
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\obj\Debug\netcoreapp2.1\ChatApplication.AssemblyInfoInputs.cache
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\obj\Debug\netcoreapp2.1\ChatApplication.AssemblyInfo.cs
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\obj\Debug\netcoreapp2.1\ChatApplication.RazorTargetAssemblyInfo.cache
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\obj\Debug\netcoreapp2.1\ChatApplication.dll
+C:\Users\mansi\source\repos\ChatApplication\ChatApplication\obj\Debug\netcoreapp2.1\ChatApplication.pdb

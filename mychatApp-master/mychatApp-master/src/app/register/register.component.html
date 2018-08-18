@@ -1,0 +1,15 @@
+<h1>Register To Chat Application</h1><br>
+<form (ngSubmit)="onSubmit()" novalidate>
+  <div class="form-group">
+    <input type="text" name="user" [(ngModel)]="user.name" placeholder="Username">
+  </div>
+  <div class="form-group">
+    <input type="password" name="pass" [(ngModel)]="user.password" id="pass" placeholder="Password">
+  </div>
+   <div class="form-group">
+    <input type="password" name="confrimpass" id="confrimpass" [(ngModel)]="confrim" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-success">Submit</button>
+  </div>
+</form>

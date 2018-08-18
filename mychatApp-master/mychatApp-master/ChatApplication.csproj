@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+  <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked> 
+<PostBuildEvent>ng build --aot</PostBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="src\app\Model\UserLogin.ts" />
+    <None Remove="src\app\Service\HubConnectionService.ts" />
+    <None Remove="src\app\Service\LoginService.ts" />
+    <None Remove="src\app\Service\MessageService.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\Model\UserLogin.ts" />
+    <TypeScriptCompile Include="src\app\Service\HubConnectionService.ts" />
+    <TypeScriptCompile Include="src\app\Service\LoginService.ts" />
+    <TypeScriptCompile Include="src\app\Service\MessageService.ts" />
+  </ItemGroup>
+
+</Project>
